@@ -4,7 +4,6 @@
 COMMAND="curl -sL1 avail.sh | bash" 
 
 # Here is script making LC restart if getting errors
-# script from https://docs.daningyn.xyz/avail/light-client
 while true; do
     echo "Starting command: $COMMAND"
     # Chạy lệnh trong background
